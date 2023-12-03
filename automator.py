@@ -27,18 +27,6 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 
-print(style.BLUE)
-print("**********************************************************")
-print("**********************************************************")
-print("*****                                               ******")
-print("*****  THANK YOU FOR USING WHATSAPP BULK MESSENGER  ******")
-print("*****      This tool was built by Anirudh Bagri     ******")
-print("*****           www.github.com/anirudhbagri         ******")
-print("*****                                               ******")
-print("**********************************************************")
-print("**********************************************************")
-print(style.RESET)
-
 f = open("message.txt", "r", encoding="utf8")
 message = f.read()
 f.close()
